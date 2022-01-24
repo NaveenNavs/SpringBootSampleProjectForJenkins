@@ -15,4 +15,9 @@ public class HomeController {
 	public String sayBye() {
 		return "<h1>Thank you navs, Take care!! Bye!!!<h1>";
 	}
+	
+	@RequestMapping("/greatnavs")
+	public String sayGreat() {
+		return "<h1>Great work!!!<h1>";
+	}
 }
