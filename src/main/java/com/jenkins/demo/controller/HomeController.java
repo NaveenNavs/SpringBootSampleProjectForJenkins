@@ -18,6 +18,6 @@ public class HomeController {
 	
 	@RequestMapping("/greatnavs")
 	public String sayGreat() {
-		return "<h1>Great work!!!<h1>";
+		return "<h1>Great work by navs!!!!<h1>";
 	}
 }
